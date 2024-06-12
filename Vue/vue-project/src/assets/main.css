@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #000016;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+}
+
+.img {
+    position: absolute;
+    width: 620px;
+    height: 568px;
+    left: 799px;
+    top: 229px;
+}
+
+.glowing-text {
+    filter: drop-shadow(2px 5px 3px #0f436b);
+  }
